@@ -1,0 +1,17 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro valor_do_lanche, valor_pago, troco //declaracao variavel
+		escreva ("valo do lanche:") 
+		leia (valor_do_lanche)
+		escreva ("valor pago:")
+		leia (valor_pago)
+		//calcule troco
+		troco = valor_pago - valor_do_lanche
+		escreva ("o troco é:", troco)
+	}
+
+}
+	
